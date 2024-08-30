@@ -1,20 +1,17 @@
 public class Warmup {
 
-public boolean sleepIn(boolean weekday, boolean vacation) {
+    public boolean sleepIn(boolean weekday, boolean vacation) {
+        if (weekday) return false;
+        return true;
+ } 
 
-     if (weekday == false && vacation == false) {
-        return true;
-     }
-     else if (weekday == false && vacation == true) { 
-        return true;
+    public static void main(String[] args) {
+        Warmup warmup = new Warmup();
+        
+        System.out.println(warmup.sleepIn(false, false)); 
+        System.out.println(warmup.sleepIn(true, false));  
+        System.out.println(warmup.sleepIn(false, false));      
     }
-     else if (weekday == true && vacation == false) {
-        return false; 
-     } 
-     else { 
-       return true; 
-      }
-   }
 }
 
     
