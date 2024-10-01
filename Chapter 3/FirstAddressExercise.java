@@ -5,7 +5,7 @@ public class FirstAddressExercise
         String companyName = "Oppo Company";
         String address1 = "20172 SW Birch St";
         String address2 = "Newport Beach, CA 92660";
-        String companyN2 = "Company: Oppo";
+        String companyName2 = "Company: Oppo";
         
         displayAddress(companyName, address1, address2, companyN2 );
     }
